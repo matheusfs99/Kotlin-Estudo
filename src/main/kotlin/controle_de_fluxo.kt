@@ -38,6 +38,12 @@ fun main() {
     // String str = valor == 10 ? "Sim": "Não";
     val str = if (valor == 10) "Sim" else "Não"
 
+    // Operador Elvis ?:
+    val test: Int? = null // o ? informa pra o kotlin q a variável pode ser null
+    val op: Int = test ?: 100 // o operador Elvis verifica se uma variavel é nula.
+    // se for, atribui o valor, no caso, 100. se não for, usa a variável
+    println(op)
+
 
     println(calculaBonus("Coordenador", 1000f))
     println(calculaBonus("Gerente Júnior", 1000f))
