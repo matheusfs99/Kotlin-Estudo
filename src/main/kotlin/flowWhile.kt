@@ -10,4 +10,10 @@ fun main(){
         }
     }
 
+    var l: Int = 10
+    do {
+        println(l)
+        l+=20
+    } while (l < 100)
+
 }
