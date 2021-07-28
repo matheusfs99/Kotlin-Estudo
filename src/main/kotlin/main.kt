@@ -1,3 +1,5 @@
+import basic.*
+
 fun main() {
     println("Olá mundo!")
 
@@ -97,4 +99,13 @@ fun main() {
     numero %= 3 // numero = numero % 3
     println("numero%= 3 = $numero")
 
+    welcome()
+    basic.welcome()
+    t1()
+    t2()
+
+}
+
+fun welcome(){
+    println("olá mundo")
 }
