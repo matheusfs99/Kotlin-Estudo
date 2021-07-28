@@ -11,4 +11,9 @@ public class Teste {
         else
             a = "Não";
     }
+
+    public void meuNome(){
+        String str = null;
+        str.length();
+    }
 }
