@@ -1,3 +1,6 @@
+import java.lang.Exception
+import java.lang.NumberFormatException
+
 fun teste(n1: Int){
 
 }
@@ -16,6 +19,15 @@ fun main(){
     println("19".toInt())
     println("19".toFloat())
     println("19".toDouble())
-    println("fdg".toInt())
 
+//    Exceções
+    try{
+        println("fdg".toInt())
+    } catch (e: NumberFormatException){
+        println("Esse valor não é um número!")
+    } catch (e: Exception){
+        println("Algo de errado ocorreu")
+    } finally {
+        println("fdsvb")
+    }
 }
